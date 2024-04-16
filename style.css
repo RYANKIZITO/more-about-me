@@ -1,0 +1,180 @@
+body{
+    background-color: black;
+    font-family: cursive;
+    color: gold;
+}
+.topnav{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    display: flex;
+    margin: 0%;
+    padding: 10px;
+    height: fit-content;
+    flex-basis: auto;
+    gap: 70px;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    
+}
+#tp{
+    background-color: gold;
+    border: solid gold;
+    border-radius: 10px;
+    display: flex;
+   
+}
+button{
+    background-color: gold;
+    border-radius: 10px;
+    border: solid gold;
+    font-weight: bold;
+    font-size: 1rem;
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 100px;
+    height: 900px;
+    width: 900px;
+    margin: 5rem;
+    padding: 3rem;
+    padding-top: 0;
+    
+    
+}
+.c{
+    background-color: black;
+    height: 10%px;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    color: gold;
+    padding-bottom: 3rem;
+    cursor: pointer;
+
+}
+.f {
+   display: inline-flex;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+  }
+  .f > ul{
+    list-style: none;
+  }
+footer{
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    background-color: black;
+    color: gold;
+}
+
+
+@media (max-width: 600px) {
+
+    /* CSS for screens below or equal to 600px wide */
+    body{
+        max-width: 600px;
+        min-height: fit-content;
+    }
+    .topnav{
+        max-width: 500px;
+        gap: 20px;
+    }
+    .container{
+      height: 200px;
+      width: 200px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+   
+    
+  }
+
+
+  /* signup page css begins from here */
+  .mother{
+    display: grid;
+    place-items: center;
+    height: 100vh;
+  }
+  .login{
+    border: 1px solid black;
+    width: 400px;
+    height: 500px;
+    background: url('https://thumbs.dreamstime.com/z/looking-up-business-buildings-downtown-new-york-usa-88883160.jpg');
+    color: white;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.75);
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    
+  }
+  
+  form{
+    display: block;
+    box-sizing: border-box;
+    padding: 40px;
+    width: 100%;
+    height: 100%;
+    backdrop-filter: brightness(40%);
+    flex-direction: column;
+    display: flex;
+    gap: 5px;
+  }
+
+  h1{
+    font-weight: normal;
+    font-size: 24px;
+    text-shadow: 0px 0px 2px rgba(0,0,0,0.5);
+    margin-bottom: 60px;
+  }
+
+  label{
+    color: rgba(225, 225, 225, 0.8);
+    text-transform: uppercase;
+    font-size: 10px;
+    letter-spacing: 2px;
+    padding-left: 10px;
+  }
+  input{
+    background: rgba(225, 225, 225, 0.3);
+    height: 40px;
+    line-height: 20px;
+    border-radius: 20px;
+    padding: 0px 20px;
+    border: none;
+    margin-bottom: 20px;
+    color: white;
+  }
+
+  button{
+    background: rgb(45, 126, 231);
+    height: 40px;
+    line-height: 40px;
+    border-radius: 40px;
+    border: none;
+    margin: 10px 0px;
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.3);
+    color: white;
+  }
+
+  /* resumes css begins from here */
+
+ul{
+    list-style: none;
+}
+.res{
+    display: grid;
+    place-items: center;
+    /* height: 30vh; */
+}
+#h{
+    margin-top: 3rem;
+}
